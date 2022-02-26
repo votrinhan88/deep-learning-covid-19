@@ -128,7 +128,7 @@ class VisualizeClass:
                     cmap = 'Blues',
                     norm = colors.PowerNorm(gamma=0.2))
                 heatmap.set_clim(0, metrics[subset]['confusion_matrix'][0].sum())
-                # ax[subset_ind].invert_xaxis() Confusion matrix sucks. I was lucky.
+                # ax[subset_ind].invert_xaxis() Confusion matrices suck. I was lucky.
                 ax1[subset_ind].invert_yaxis()
                 ax1[subset_ind].set_xticks(torch.arange(2) + 0.5)
                 ax1[subset_ind].set_yticks(torch.arange(2) + 0.5)
