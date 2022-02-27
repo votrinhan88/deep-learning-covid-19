@@ -1,6 +1,16 @@
 # deep-learning-covid-19
 This repo contains the Python scripts to perform my thesis study '*Detection of COVID-19 from Chest X-rays using Deep Learning*' (HCMIU VNU-HCMC, Feb - Oct 2021).  
 
+Dependencies used in project:
+- NumPy 1.21.0
+- PyTorch 1.9.0
+- Albumentations 1.0.3
+- bayesian-optimization 1.2.0
+- tqdm 4.62.1
+- pretrainedmodels 0.7.4
+- Matplotlib 3.4.3
+- Pillow (PIL Fork) 8.3.1
+
 ## Some heads up:
 - List of interested performance metrics: loss, accuracy, precision, recall, F1 score, AU-ROC, AU-PRC
 - I also practiced some OOP in my code. The classes and methods are called in a Colab notebook. (It did saved time in the long run.)  
